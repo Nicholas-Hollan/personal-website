@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+    <!-- 引入字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- 引入图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- 引入自定义样式 -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="logo">Xiang Youxiu</div>
+        <div class="nav-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#portfolio">作品集</a></li>
+            <li><a href="#contact">联系我</a></li>
+        </ul>
+    </nav>
+
+    <!-- 轮播区域 -->
+    <section id="home" class="hero">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h2>AI 助手</h2>
+                <p>随时为您解答问题</p>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="message ai-message">
+                    <div class="message-content">
+                        <p>你好！我是你的AI助手，有什么我可以帮你的吗？</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <form id="chatForm" class="chat-form">
+                    <input type="text" id="userInput" placeholder="输入你的问题..." required>
+                    <button type="submit" id="sendButton">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我部分 -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="imags/IMG_4643 copy.JPG" alt="个人照片">
+                </div>
+                <div class="about-text">
+                    <h3>你好，我是向有秀</h3>
+                    <p>我是一名充满激情的全栈开发者，同时也热爱摄影和设计。在过去的几年里，我专注于网站开发和用户体验设计，致力于创造既美观又实用的数字产品。</p>
+                    <div class="skills">
+                        <h4>技能专长</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">UI设计</span>
+                            <span class="skill-tag">摄影</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品集部分 -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title">作品集</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://picsum.photos/800/600?random=1" alt="作品1">
+                    <div class="portfolio-overlay">
+                        <h3>网站设计</h3>
+                        <p>响应式电商网站设计与开发</p>
+                        <a href="#" class="portfolio-link">查看详情</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://picsum.photos/800/600?random=2" alt="作品2">
+                    <div class="portfolio-overlay">
+                        <h3>摄影作品</h3>
+                        <p>城市建筑摄影系列</p>
+                        <a href="#" class="portfolio-link">查看详情</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://picsum.photos/800/600?random=3" alt="作品3">
+                    <div class="portfolio-overlay">
+                        <h3>UI设计</h3>
+                        <p>移动应用界面设计</p>
+                        <a href="#" class="portfolio-link">查看详情</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我部分 -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>联系方式</h3>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>email@example.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+86 123 4567 8900</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="您的姓名" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="您的邮箱" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="您的留言" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Xiang Youxiu</h3>
+                    <p>摄影师 | 设计师 | 开发者</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">首页</a>
+                    <a href="#about">关于我</a>
+                    <a href="#portfolio">作品集</a>
+                    <a href="#contact">联系我</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 向有秀. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 在body结束标签前添加脚本引用 -->
+    <script src="main.js"></script>
+</body>
+</html> 
