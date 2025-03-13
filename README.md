@@ -1,6 +1,9 @@
-# 个人网站 - Interactive Portfolio
+<img width="1458" alt="image" src="https://github.com/user-attachments/assets/5eb8f769-d835-4912-877c-645a9dabcb90" /># 个人网站 - Interactive Portfolio
 
 这是一个现代化的个人作品集网站，具有独特的3D交互效果和动态内容展示。
+## 预览：
+<img width="1458" alt="image" src="https://github.com/user-attachments/assets/e846a513-6e77-4555-9128-e5a528801949" />
+<img width="1472" alt="image" src="https://github.com/user-attachments/assets/29f594c5-230b-4f1d-bafc-f8a1e9d52a99" />
 
 ## 特色功能
 
